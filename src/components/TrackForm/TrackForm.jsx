@@ -14,7 +14,7 @@ function TrackForm(props) {
 
         setFormData({
             ...formData,
-            [e.target.title]: e.target.value
+            [e.target.name]: e.target.value
         })
     }
 
